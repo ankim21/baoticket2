@@ -101,8 +101,8 @@ const PRODUCTS = [
 
 const TICKET_TYPES = [
   { id: 'bac',      title: 'Identification bac',   subtitle: 'Nom du restaurant + date' },
-  { id: 'receipt',  title: 'Étiquette produit',    subtitle: 'Produit conservé au restaurant' },
-  { id: 'shipping', title: 'Étiquette expédition', subtitle: 'Produit envoyé en restaurant' },
+  { id: 'receipt',  title: 'Étiquette produit',    subtitle: 'Produit' },
+  { id: 'shipping', title: 'Étiquette sous-vide', subtitle: 'Nom de la recette / date fabrication / DLC' },
 ];
 
 // ============================================================
