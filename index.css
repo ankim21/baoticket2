@@ -166,12 +166,15 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
 }
 
 .ticket {
-  width: 70mm;
+  width: 76mm;
+  height: 55mm;
+  overflow: hidden;
   background: white;
   color: black;
   border: 1.5px solid black;
   font-family: Arial, Helvetica, sans-serif;
   page-break-after: always;
+  box-sizing: border-box;
 }
 
 /* ============================================================
@@ -289,16 +292,14 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
 
 @media print {
   @page {
-    size: 70mm auto;
+    size: 76mm 55mm;
     margin: 0;
   }
-  body { background: white; margin: 0; padding: 0; }
+  html, body { margin: 0; padding: 0; background: white; }
   .no-print   { display: none !important; }
   .print-only { display: block; }
 
   .ticket {
-    border: 1.5px solid black;
-    margin: 2mm;
     page-break-after: always;
   }
   .ticket:last-child { page-break-after: auto; }
