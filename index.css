@@ -272,12 +272,12 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
   word-break: break-word;
 }
 .ticket-shipping .ticket-row {
-  padding: 12px 10px;
+  padding: 10px 5px;
   font-size: 12px;
   border-bottom: 1.5px solid black;
 }
 .ticket-shipping .ticket-conservation-frozen {
-  padding: 18px 10px;
+  padding: 10px 5px;
   font-size: 14px;
   font-weight: 700;
   text-align: center;
@@ -292,7 +292,7 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
 
 @media print {
   @page {
-    size: 76mm 50mm;
+    size: 76mm 55mm;
     margin: 0;
   }
   html, body { margin: 0; padding: 0; background: white; }
