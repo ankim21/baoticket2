@@ -166,7 +166,7 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
 }
 
 .ticket {
-  width: 76mm;
+  width: 70mm;
   background: white;
   color: black;
   border: 1.5px solid black;
@@ -200,14 +200,14 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
    ============================================================ */
 
 .ticket-receipt .ticket-header {
-  padding: 22px 8px;
+  padding:10px 5px;
   font-size: 22px;
   font-weight: 700;
   text-align: center;
   border-bottom: 1.5px solid black;
 }
 .ticket-receipt .ticket-product {
-  padding: 16px 8px;
+  padding: 10px 5px;
   font-size: 14px;
   text-align: center;
   border-bottom: 1.5px solid black;
@@ -261,7 +261,7 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
    ============================================================ */
 
 .ticket-shipping .ticket-header {
-  padding: 22px 8px;
+  padding: 10px 5px;
   font-size: 22px;
   font-weight: 700;
   text-align: center;
@@ -289,7 +289,7 @@ h1 { font-size: 26px; font-weight: 600; margin: 0 0 20px; }
 
 @media print {
   @page {
-    size: 80mm auto;
+    size: 70mm auto;
     margin: 0;
   }
   body { background: white; margin: 0; padding: 0; }
